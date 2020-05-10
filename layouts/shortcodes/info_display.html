@@ -1,0 +1,6 @@
+{{- with .Params.authors }}
+<p> Written by: {{- range . -}} <b>{{.}}</b> {{- end }}</p>
+{{- end}}
+
+<!--{{(index .Site.Data._authors .Params.author).title}}
+{{(index .Site.Data._authors .Params.author).short_bio}} -->
