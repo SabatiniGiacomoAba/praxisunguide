@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>news on PraxisLIVE Unofficial Guide</title>
+    <link>/tags/news/</link>
+    <description>Recent content in news on PraxisLIVE Unofficial Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 16 May 2020 16:59:56 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutorial_1_Av</title>
+      <link>/posts/tutorial_1_av/</link>
+      <pubDate>Sat, 16 May 2020 16:59:56 +0200</pubDate>
+      
+      <guid>/posts/tutorial_1_av/</guid>
+      <description>Hello, everyone! So, it seems that our introduction got your attention! You&amp;rsquo;ll be glad to know that a new part of our basic series is ready! Let&amp;rsquo;s get started! Click here!</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 0 Available!</title>
+      <link>/posts/tutorial_0_av/</link>
+      <pubDate>Sat, 09 May 2020 19:38:27 +0200</pubDate>
+      
+      <guid>/posts/tutorial_0_av/</guid>
+      <description>We&amp;rsquo;re glad to announce that the first PraxisLIVE tutorial is available here!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zero on PraxisLIVE Unofficial Guide</title>
+    <link>/tags/zero/</link>
+    <description>Recent content in zero on PraxisLIVE Unofficial Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 09 May 2020 16:16:15 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/zero/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutorial 0 – Introduction</title>
+      <link>/tutorials/tutorial_0000/</link>
+      <pubDate>Sat, 09 May 2020 16:16:15 +0200</pubDate>
+      
+      <guid>/tutorials/tutorial_0000/</guid>
+      <description>Welcome to this basic tutorial series about PraxisLIVE. In this first episode, you&amp;rsquo;ll be introduced to the software and what are its possibles usages.
+PraxisLIVE is an open source software for artists to create advanced multimedia content (for example video mappings, audio-syncronized visuals created with code, or GUIs to manage MIDI sounds). Here&amp;rsquo;s a list of its key features:
+ intuitive graphical patching, so it works with nodes written in Processing, a Java-based scripting language; You can modify the project and nodes values while running it; Real-time audio/video (it uses infact OpenGL, GStreamer, JACK); It can manage MIDI, OSC, GUIs and physical computing, which are computers that are able to translate real world signals, like sounds or movements, as an input; It&amp;rsquo;s cross-platform (Windows, MacOS, Linux and even Raspberry Pi!</description>
+    </item>
+    
+  </channel>
+</rss>

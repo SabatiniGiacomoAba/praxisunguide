@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>video on PraxisLIVE Unofficial Guide</title>
+    <link>/tags/video/</link>
+    <description>Recent content in video on PraxisLIVE Unofficial Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 15 May 2020 21:43:12 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutorial 1 - Our first project</title>
+      <link>/tutorials/tutorial_0001/</link>
+      <pubDate>Fri, 15 May 2020 21:43:12 +0200</pubDate>
+      
+      <guid>/tutorials/tutorial_0001/</guid>
+      <description>Welcome to this second part of this PraxisLIVE tutorial series! In this new episode we&amp;rsquo;re going to install the software, start a new project and play a little with some nodes.
+SETUP
+Regardless your OS (Windows, MacOS or Linux, just go to the website and download the software. Just for Linux, if your distro is not Debian-based, you have to install dpkg on your system and run the following command:</description>
+    </item>
+    
+  </channel>
+</rss>

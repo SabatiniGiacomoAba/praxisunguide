@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on PraxisLIVE Unofficial Guide</title>
+    <link>/about/</link>
+    <description>Recent content in Abouts on PraxisLIVE Unofficial Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 09 May 2020 15:19:15 +0200</lastBuildDate>
+    
+	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/about/about/</link>
+      <pubDate>Sat, 09 May 2020 15:19:15 +0200</pubDate>
+      
+      <guid>/about/about/</guid>
+      <description>This is an unofficial guide for PraxisLIVE that will help newcomers to manage the software basics. In the future custom nodes that will improve the software capabilities will be uploaded here. Here are the references to the official PraxisLIVE material.
+PraxisLIVE: https://www.praxislive.org/
+PraxisLIVE Documentation: https://docs.praxislive.org/
+PraxisLIVE GitHub: https://github.com/praxis-live
+Processing: https://processing.org/
+This project is developped by Giacomo Sabatini and professor Davide Riboli at the Urbino Accademy of Fine Arts.
+All the contents are under the MIT License.</description>
+    </item>
+    
+  </channel>
+</rss>
