@@ -4,7 +4,13 @@
 languageCode = "en-us"
 title = "PraxisLIVE Unofficial Guide"
 theme = "hugo-theme-hello-friend-ng"
-publishDir = "public"
+publishDir = "SabatiniGiacomoAba.github.io"
+
+[module]
+
+  [[module.mounts]]
+    source = "content"
+    target = "content"
 
 [params]
   dateform        = "Jan 2, 2006"
