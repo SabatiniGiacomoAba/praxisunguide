@@ -16,6 +16,8 @@ Processing: https://processing.org/
 
 ![PraxisLIVE Screenshot from official Website](/imgs/praxislive4.jpg "PraxisLIVE Screenshot from official Website")
 
-This project is developped by Giacomo Sabatini and professor [Davide Riboli](http://davideriboli.com/) at the Urbino Accademy of Fine Arts.
+This project is developped by Giacomo Sabatini at the Urbino Accademy of Fine Arts.
+
+PraxisLIVE is an open-source project originally developed by [Neil C Smith](https://www.neilcsmith.net/), and supported by [Codelerity Ltd](https://www.codelerity.com/).
 
 All the contents are under the MIT License. All tutorials and new codes are free to download and to use.
