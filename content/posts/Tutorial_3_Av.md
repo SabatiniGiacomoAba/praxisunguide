@@ -1,5 +1,5 @@
 ---
-title: "Tutorial 2 Available!"
+title: "Tutorial 3 Available!"
 date: 2020-06-08T22:28:14+02:00
 draft: true
 toc: false

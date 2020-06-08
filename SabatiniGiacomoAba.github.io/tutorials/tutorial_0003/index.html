@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Hello everybody! We&amp;rsquo;re getting to the final steps of this PraxisLIVE basic tutorial series! Today we&amp;rsquo;re about to see the &amp;ldquo;core&amp;rdquo; of this software: how to create audio on PraxisLIVE? How to make interact Processing visuals with an audio input?
+Let&amp;rsquo;s open as usual our project, but this time by also creating a new file (Audio Patch). Once done, you&amp;rsquo;ll see, like on video one when we created it, only the output node." />
+<meta name="keywords" content=", sound, midi, audio-reactive, audio" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="/tutorials/tutorial_0003/" />
+
+
+    <title>
+        
+            Tutorial 3 - Audio-reactive visuals :: PraxisLIVE Unofficial Guide  — by Giacomo Sabatini
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.753fac8f03736f0edc9be411eb20cee875dd7bb8e73c8155fbf6a629c863f4ca.css">
+
+
+
+
+
+
+<meta itemprop="name" content="Tutorial 3 - Audio-reactive visuals">
+<meta itemprop="description" content="Hello everybody! We&rsquo;re getting to the final steps of this PraxisLIVE basic tutorial series! Today we&rsquo;re about to see the &ldquo;core&rdquo; of this software: how to create audio on PraxisLIVE? How to make interact Processing visuals with an audio input?
+Let&rsquo;s open as usual our project, but this time by also creating a new file (Audio Patch). Once done, you&rsquo;ll see, like on video one when we created it, only the output node.">
+<meta itemprop="datePublished" content="2020-06-06T16:30:59&#43;02:00" />
+<meta itemprop="dateModified" content="2020-06-06T16:30:59&#43;02:00" />
+<meta itemprop="wordCount" content="1240">
+<meta itemprop="image" content=""/>
+
+
+
+<meta itemprop="keywords" content="sound,midi,audio-reactive,audio," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content=""/>
+
+<meta name="twitter:title" content="Tutorial 3 - Audio-reactive visuals"/>
+<meta name="twitter:description" content="Hello everybody! We&rsquo;re getting to the final steps of this PraxisLIVE basic tutorial series! Today we&rsquo;re about to see the &ldquo;core&rdquo; of this software: how to create audio on PraxisLIVE? How to make interact Processing visuals with an audio input?
+Let&rsquo;s open as usual our project, but this time by also creating a new file (Audio Patch). Once done, you&rsquo;ll see, like on video one when we created it, only the output node."/>
+
+
+
+    <meta property="og:title" content="Tutorial 3 - Audio-reactive visuals" />
+<meta property="og:description" content="Hello everybody! We&rsquo;re getting to the final steps of this PraxisLIVE basic tutorial series! Today we&rsquo;re about to see the &ldquo;core&rdquo; of this software: how to create audio on PraxisLIVE? How to make interact Processing visuals with an audio input?
+Let&rsquo;s open as usual our project, but this time by also creating a new file (Audio Patch). Once done, you&rsquo;ll see, like on video one when we created it, only the output node." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/tutorials/tutorial_0003/" />
+<meta property="og:image" content=""/>
+<meta property="article:published_time" content="2020-06-06T16:30:59+02:00" />
+<meta property="article:modified_time" content="2020-06-06T16:30:59+02:00" /><meta property="og:site_name" content="PraxisLIVE Unofficial Guide" />
+
+
+
+
+    <meta property="article:section" content="basics" />
+
+
+
+    <meta property="article:published_time" content="2020-06-06 16:30:59 &#43;0200 CEST" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">PraxisLIVE Guide</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about/about/">About</a></li><li><a href="/posts">Blog</a></li><li><a href="/tutorials/">Tutorial</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>6 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="/tutorials/tutorial_0003/">Tutorial 3 - Audio-reactive visuals</a>
+            </h1>
+
+             
+            <h5> Written by:<i> &nbsp; Giacomo Sabatini</i></h5> 
+            <div class="post-content">
+                <p>Hello everybody! We&rsquo;re getting to the final steps of this PraxisLIVE basic tutorial series! Today we&rsquo;re about to see the &ldquo;core&rdquo; of this software: how to create audio on PraxisLIVE? How to make interact Processing visuals with an audio input?</p>
+<p>Let&rsquo;s open as usual our project, but this time by also creating a new file (Audio Patch). Once done, you&rsquo;ll see, like on video one when we created it, only the output node.</p>
+<figure>
+    <img src="/imgs/3_Audio/audio_first.png"/> 
+</figure>
+
+<p>As we learned from previous tutorials, code by itself hasn&rsquo;t the cognition of time. So we need to create a <strong>clock</strong> node (audio -&gt; clock). In the middle we must add a synth (a midi-sound generator). I&rsquo;ll choose from &ldquo;audio: custom&rdquo; a &ldquo;synth-duo-osc&rdquo; node (you can choose whatever you want from there). Between <strong>clock</strong> and <strong>duo-osc</strong> we need an iterator, that will be triggered by the <em>out</em> socket signal and will send its <em>values</em> to the <em>note</em> socket through its <em>out</em> one (like we did on the first tutorial to make camera capturing start). In <em>values</em> we must insert the nodes to make it start. Here&rsquo;s an example taken from here:</p>
+
+<div style="position: relative; padding-bottom: 56.25%; margin-top: 25px; margin-bottom:25px; height: 0; overflow: hidden;">
+<iframe src="https://www.youtube.com/embed/lK94qu1iObo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> a3 - g3 e2 - &#34;c#2&#34; - a2 X d3 X a3 b3 &#34;c#4&#34; d4
+ </code></pre></div>
+<p>You should have something like this:</p>
+<figure>
+    <img src="/imgs/3_Audio/audio_basic_set.png"/> 
+</figure>
+
+<p>When done, hit play above: if you choose <strong>duo_osc</strong> as I did, you should hear some weird sound (like old videogames) playing some notes. This is by default the synth sound, and here we must get a little into sound design matter. Synths basically produces this kind of sounds:</p>
+<figure>
+    <img src="https://i.pinimg.com/originals/04/68/6f/04686f729631a9d522e6c04576838504.gif"/> 
+</figure>
+
+<p>By default, <strong>duo_osc</strong> <em>waveform-1</em> is set on Saw: you can choose also Square, or if you want to hear them both, you can set it on <em>waveform-2</em>. As you saw above, by mixing waves you can obtain more complex sounds. To go deeper into this matter, you could try this setup:</p>
+<figure>
+    <img src="/imgs/3_Audio/audio_mixer.png"/> 
+</figure>
+
+<p>In the mixer raise in levels or you won&rsquo;t hear anything. By setting different values, you could get interesting results. Just try!
+There are other sockets that can modify the outcome sound:</p>
+<ul>
+<li>Attack: It&rsquo;s the passage between 0 and the sound maximum peak: a low value makes it very sharp, a high one instead makes it very soft like a flute note;</li>
+<li>Decay: This parameter states how much the sounds decades from the peak;</li>
+<li>Sustain: It&rsquo;s how much the level reached after Decay is mantained;</li>
+<li>Release: It&rsquo;s how long the passage from sustain level to 0 is.</li>
+</ul>
+<figure>
+    <img src="https://i.pinimg.com/originals/04/68/6f/04686f729631a9d522e6c04576838504.gif"/> 
+</figure>
+
+<p>Try to make the bass part! What you have to do is:</p>
+<ul>
+<li>to add an <strong>order</strong> node between the <strong>clock</strong> and the iterator;</li>
+<li>duplicate the iterator and edit values;</li>
+<li>choose a synth;</li>
+<li>plug it to the mixer and raise volume;</li>
+</ul>
+<p>Just try to calibrate sounds in a way that all of them can be distinguished. You can also modify them by adding some effects like the <strong>Overdrive</strong> (audio:fx -&gt; Overdrive). Before jumping into audio-reactive part, I would like to show a bunch of things: <strong>osc</strong> node and <strong>player</strong>. <strong>osc</strong> is known as the oscillator, that creates the sound waves I mentioned before, included Sine ones. Now, here you can&rsquo;t play notes by digiting notes but frequencies, which is quite the same thing (of course now you have a wider range) and it could be even funnier to animate. For now, let&rsquo;s just use the Iterator (with an extra order node) and, instead of using notes (a3, d3, and so on) we&rsquo;ll use (440, 520, and so on (they do not correspond to the previously written notes, those are just random numbers)). In the following pic, you may see that I plugged in the osc to in-4l and in-5l:this is because I wanted to trick the fact that there&rsquo;s no &ldquo;panning&rdquo; feature in that mixer, so by adjusting those two values I can simulate pan (example: in-4l = 0.5; in-5r = 0.3 means that sound will be in middle-left).</p>
+<figure>
+    <img src="/imgs/3_Audio/audio_osc.png"/> 
+</figure>
+
+<p>Next, the <strong>player</strong> node. This can play songs, but also tiny samples, like drums. Download one (I suggest you from <a href="https://freesound.org/home/">FreeSound.org</a>) and move it to your resources folder (<em>your_username</em>/PraxisLIVE Projects/1 - Our First Project/resources). Once done, go to the player mode, and set on <em>samples</em> node your file. Create a <strong>start-trigger</strong> node, plug it to <em>play</em> socket and do the same with its two out sockets (l and r) to the mixer. What is peculiar about chosing a sample is that you can change its frequency just as we did with the <strong>osc</strong> node: we&rsquo;ll have to add a <strong>filter</strong> between the player and the mixer (plug ins to outs). Remember that you can create a sequence by plugging in an Iterator (or this time you could try a Random node and set its range from 0 to 20000) that must be plugged to <strong>order</strong>.</p>
+<figure>
+    <img src="/imgs/3_Audio/audio_player.png"/> 
+</figure>
+
+<p>Now we&rsquo;re ready to make our video audio-reactive! What we need is to send a value to the video patch. This time we&rsquo;ll send the volume of a specific track (in my case the basses edited with the Overdrive). Just add this two nodes like in this picture:</p>
+<figure>
+    <img src="/imgs/3_Audio/audio_send.png"/> 
+</figure>
+
+<p>For a moment, let&rsquo;s just head back to video, because we need to create the socket that will receive the data. There are essentially two ways to do it:</p>
+<ul>
+<li>create the socket into the node where the variable is required (like the Processing sketch);</li>
+<li>send it to a generic node with a value socket(e.g. &ldquo;Variable&rdquo;, &ldquo;Iterator&rdquo; and so on).</li>
+</ul>
+<p>In my case I want to make it directly on our 3d sketch: so I&rsquo;ll edit the code as we saw in the last episode, add a double called &ldquo;audio_level&rdquo;. Since we&rsquo;re there, let&rsquo;s create the mechanism that will scale the cube according to audio_level value. Under draw() let&rsquo;s write this code:</p>
+<pre><code>   <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">       scale(map(audio_level, 0, 0.3, 0.0, 2.0));
+        </code></pre></div>
+</code></pre>
+<p>Now, scale can be also managed like this:
+scale(x,y);
+scale(x,y,z);</p>
+<p>But&hellip; what is map()? In our case, since when testing this code I noticed that maximum value is 0.3, the scale effect wasn&rsquo;t that visible, so to improve it I &ldquo;mapped&rdquo; the value from the range of 0.0 and 0.3 to the bigger one 0.0 2.0. So 0.25 from the previous range now shall be 1.6 periodical.</p>
+<p>If you play, of course cube will be invisible because it has 0 scale. Let&rsquo;s head back to audio patch. Click on send and edit address value: set it to video -&gt; p3d (our processing sketch) -&gt; audio_level.
+Now you can hit play and enjoy the result! Of course every variable can be connected (you might want to try for example with the hue). For now, I won&rsquo;t explain how to grab other audio parameters, because I have to test them before, but since I&rsquo;m planning to do an extra episode after the conclusion, I&rsquo;ll surely insert this.</p>
+<p>Well, I think we&rsquo;ve learned quite a lot of things, just remember that the great and very difficult sketches are &ldquo;nothing more&rdquo; (I convey with you that it&rsquo; easy to say, but&hellip;) than a more sophisticated use of the basics (I&rsquo;ve stolen this catch from Richard Williams). In the 4 and &ldquo;last&rdquo; episode we&rsquo;ll be exploring the GUI patch world: think of DJs, with those consoles with so many buttons, each that immediately changes a parameter, changes sound and so on. Infact, this will be necessary to change when doing our performance at an event, to make easier to change on the fly the things we care most to make both visual and sound more interesting.
+Hope you enjoyed it! See you at the next episode!</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="tags/sound">sound</a></span><span class="tag"><a href="tags/midi">midi</a></span><span class="tag"><a href="tags/audio-reactive">audio-reactive</a></span><span class="tag"><a href="tags/audio">audio</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1240 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-06-06 16:30 &#43;0200</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h">Read other posts</span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="/tutorials/tutorial_0002/">
+                                <span class="button__text">Tutorial 2 - Let&#39;s start coding!</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.4a69500057d68129e88f497d354afe68422eb56de6d15e45dbe2190858ea5a76bfcb096406f992984b241db45f47388ac57ab0376e3b32125bef7a8a6d0f06c4.js" integrity="sha512-SmlQAFfWgSnoj0l9NUr&#43;aEIutW3m0V5F2&#43;IZCFjqWna/ywlkBvmSmEskHbRfRziKxXqwN247MhJb73qKbQ8GxA=="></script>
+
+
+
+    </body>
+</html>
