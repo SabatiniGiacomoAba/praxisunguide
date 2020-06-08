@@ -204,7 +204,7 @@ public void draw() {
 
 Now our Sketch is done! Return to video and plug **p3d** to **screen** and **hsv**. You can join the results of this very long tutorial!
 
-{{<figure src="/imgs/2_LetsStartCoding/2_Final.png" alt="" >}}
+{{<figure src="/imgs/2_LetsStartCoding/2-Final.png" alt="" >}}
 
 Thank you very much if you got until here, next tutorial will be about audio. We're going infact to:
 - create a midi comp;
