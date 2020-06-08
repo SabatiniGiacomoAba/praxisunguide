@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>audio-reactive on PraxisLIVE Unofficial Guide</title>
+    <link>/tags/audio-reactive/</link>
+    <description>Recent content in audio-reactive on PraxisLIVE Unofficial Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 06 Jun 2020 16:30:59 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/audio-reactive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutorial 3 - Audio-reactive visuals</title>
+      <link>/tutorials/tutorial_0003/</link>
+      <pubDate>Sat, 06 Jun 2020 16:30:59 +0200</pubDate>
+      
+      <guid>/tutorials/tutorial_0003/</guid>
+      <description>Hello everybody! We&amp;rsquo;re getting to the final steps of this PraxisLIVE basic tutorial series! Today we&amp;rsquo;re about to see the &amp;ldquo;core&amp;rdquo; of this software: how to create audio on PraxisLIVE? How to make interact Processing visuals with an audio input?
+Let&amp;rsquo;s open as usual our project, but this time by also creating a new file (Audio Patch). Once done, you&amp;rsquo;ll see, like on video one when we created it, only the output node.</description>
+    </item>
+    
+  </channel>
+</rss>

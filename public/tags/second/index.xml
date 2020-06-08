@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>second on PraxisLIVE Unofficial Guide</title>
+    <link>/tags/second/</link>
+    <description>Recent content in second on PraxisLIVE Unofficial Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 29 May 2020 09:44:26 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/second/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutorial 2 - Let&#39;s start coding!</title>
+      <link>/tutorials/tutorial_0002/</link>
+      <pubDate>Fri, 29 May 2020 09:44:26 +0200</pubDate>
+      
+      <guid>/tutorials/tutorial_0002/</guid>
+      <description>Welcome to this second episode of the basic tutorial about PraxisLIVE! Today we&amp;rsquo;ll be starting coding with Processing, tasting a little bit what it&amp;rsquo;s capable of!
+Let&amp;rsquo;s re-open our last project: you should have it displayed on the left. Then click on the gear near to the play button to Build the project. Once done, you should see again your video file opened.
+First of all, we shall edit the animator node to make it loop</description>
+    </item>
+    
+  </channel>
+</rss>

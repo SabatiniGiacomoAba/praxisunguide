@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on PraxisLIVE Unofficial Guide</title>
+    <link>/tags/hugo/</link>
+    <description>Recent content in hugo on PraxisLIVE Unofficial Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 09 May 2020 14:23:33 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Demo</title>
+      <link>/posts/demo/</link>
+      <pubDate>Sat, 09 May 2020 14:23:33 +0200</pubDate>
+      
+      <guid>/posts/demo/</guid>
+      <description>Made with this tutorial:
+   this is a blockquote
+ &amp;lt;h6&amp;gt; This is how to highlight some code &amp;lt;/h6&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>
