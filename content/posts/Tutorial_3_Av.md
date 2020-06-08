@@ -12,4 +12,4 @@ authors:
 ---
 
 Hello everyone! The third episode about Audio-Reactive Visuals is available right now!
- Click [here]({{<ref "tutorials/tutorial_0003.md">}})!
+ Click [here]({{<ref "/tutorials/tutorial_0003.md">}})!
