@@ -40,7 +40,7 @@ There are other sockets that can modify the outcome sound:
 - Sustain: It's how much the level reached after Decay is mantained;
 - Release: It's how long the passage from sustain level to 0 is.
 
-{{<figure src="https://i.pinimg.com/originals/04/68/6f/04686f729631a9d522e6c04576838504.gif" alt="" >}}
+{{<figure src="https://i0.wp.com/www.a-mc.biz/makemusic/wp-content/uploads/2018/05/adsr.jpg?fit=800%2C365" alt="" >}}
 
 Try to make the bass part! What you have to do is:
 - to add an **order** node between the **clock** and the iterator;
