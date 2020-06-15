@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Hello there! We got to the final chapter of our PraxisLIVE basic series (excluding the extra chapter)! Today we&amp;rsquo;ll explore the GUI patch, which you might find very useful if you are going to show your work at a live event. The title, a semi-quote from &amp;ldquo;The Lord of the Rings&amp;rdquo;, sums what GUI do: it allows you to control live parameters all in one screen very quickly, without switching between all the nodes." />
+<meta name="keywords" content=", gui, patches, buttons, sliders, input" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="/tutorials/tutorial_0004/" />
+
+
+    <title>
+        
+            Tutorial 4 - One GUI to rule them all :: PraxisLIVE Unofficial Guide  — by Giacomo Sabatini
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.753fac8f03736f0edc9be411eb20cee875dd7bb8e73c8155fbf6a629c863f4ca.css">
+
+
+
+
+
+
+<meta itemprop="name" content="Tutorial 4 - One GUI to rule them all">
+<meta itemprop="description" content="Hello there! We got to the final chapter of our PraxisLIVE basic series (excluding the extra chapter)! Today we&rsquo;ll explore the GUI patch, which you might find very useful if you are going to show your work at a live event. The title, a semi-quote from &ldquo;The Lord of the Rings&rdquo;, sums what GUI do: it allows you to control live parameters all in one screen very quickly, without switching between all the nodes.">
+<meta itemprop="datePublished" content="2020-06-15T10:23:52&#43;02:00" />
+<meta itemprop="dateModified" content="2020-06-15T10:23:52&#43;02:00" />
+<meta itemprop="wordCount" content="600">
+<meta itemprop="image" content=""/>
+
+
+
+<meta itemprop="keywords" content="gui,patches,buttons,sliders,input," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content=""/>
+
+<meta name="twitter:title" content="Tutorial 4 - One GUI to rule them all"/>
+<meta name="twitter:description" content="Hello there! We got to the final chapter of our PraxisLIVE basic series (excluding the extra chapter)! Today we&rsquo;ll explore the GUI patch, which you might find very useful if you are going to show your work at a live event. The title, a semi-quote from &ldquo;The Lord of the Rings&rdquo;, sums what GUI do: it allows you to control live parameters all in one screen very quickly, without switching between all the nodes."/>
+
+
+
+    <meta property="og:title" content="Tutorial 4 - One GUI to rule them all" />
+<meta property="og:description" content="Hello there! We got to the final chapter of our PraxisLIVE basic series (excluding the extra chapter)! Today we&rsquo;ll explore the GUI patch, which you might find very useful if you are going to show your work at a live event. The title, a semi-quote from &ldquo;The Lord of the Rings&rdquo;, sums what GUI do: it allows you to control live parameters all in one screen very quickly, without switching between all the nodes." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/tutorials/tutorial_0004/" />
+<meta property="og:image" content=""/>
+<meta property="article:published_time" content="2020-06-15T10:23:52+02:00" />
+<meta property="article:modified_time" content="2020-06-15T10:23:52+02:00" /><meta property="og:site_name" content="PraxisLIVE Unofficial Guide" />
+
+
+
+
+    <meta property="article:section" content="basics" />
+
+
+
+    <meta property="article:published_time" content="2020-06-15 10:23:52 &#43;0200 CEST" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">PraxisLIVE Guide</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about/about/">About</a></li><li><a href="/posts">Blog</a></li><li><a href="/tutorials/">Tutorial</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>3 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="/tutorials/tutorial_0004/">Tutorial 4 - One GUI to rule them all</a>
+            </h1>
+
+             
+            <h5> Written by:<i> &nbsp; Giacomo Sabatini</i></h5> 
+            <div class="post-content">
+                <p>Hello there! We got to the final chapter of our PraxisLIVE basic series (excluding the extra chapter)! Today we&rsquo;ll explore the GUI patch, which you might find very useful if you are going to show your work at a live event. The title, a semi-quote from &ldquo;The Lord of the Rings&rdquo;, sums what GUI do: it allows you to control live parameters all in one screen very quickly, without switching between all the nodes.</p>
+<p>Let&rsquo;s open our project and create a GUI patch (New file -&gt; GUI). Once done, click on &ldquo;Edit&rdquo; from the GUI patch tool bar. Once highlighted, select Palette (right side of the screen).</p>
+<p>The functions that we&rsquo;re going to plug are:</p>
+<p>Audio patch:</p>
+<ul>
+<li><strong>Overdrive</strong>&lsquo;s <em>drive</em>;</li>
+<li><strong>Mixer</strong> levels;</li>
+<li><strong>player</strong>&lsquo;s play (the one that contains the drums);</li>
+<li><strong>iterator-1</strong>&lsquo;s values (the notes played by <strong>pm-synth</strong> and <strong>synth-base</strong> under it);</li>
+</ul>
+<p>Video patch:</p>
+<ul>
+<li><strong>variable-1</strong> values (the higher value to reach);</li>
+<li><strong>p3d</strong> scale-to-reach (is a parameter that I created off-screen; it defines maximum scale value of our cube);</li>
+</ul>
+<p>Let&rsquo;s start by adding a <strong>panel</strong> (drag it on the middle of the screen). On properties, set Label as &ldquo;Audio Management&rdquo; and set layout as follows:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">cell 0 1, width 500, height 700
+// &#34;cell&#34; is a parameter to assign the content at specific columns and rows.
+ </code></pre></div>
+<ul>
+<li>Drag in another <strong>panel</strong> inside the previous one and set Label as &ldquo;Mixer&rdquo;;</li>
+<li>still another panel inside Mixer with label &ldquo;Layer 1&rdquo;;</li>
+<li>drag a <strong>v-slider</strong> named &ldquo;Master&rdquo; and a <strong>button</strong> called &ldquo;Mute&rdquo;;</li>
+<li>Repeat those last two steps other 5 times (you must have 6 layers all left-aligned).</li>
+</ul>
+<p>In this way you made an interfaced Mixer that now we&rsquo;re going to connect to the one in audio patch. To plug those sliders to their respective parameters, go to the element properties (like Layer 1 master slider), click on the three dots near to Bindings and choose the audio property like we did with the <strong>send</strong> node on audio patch. Well, the rest of the button can be made in the same way:</p>
+<ul>
+<li>for the notes you can create a &ldquo;textfield&rdquo;;</li>
+<li>for Overdrive - drive just use a slider;</li>
+<li>Video Management requires a separated panel;</li>
+<li>to manage hue use an &ldquo;h-rangeslider&rdquo; (set minimum binding to video -&gt; variable 2 -&gt; value; maximum binding instead video -&gt; variable 1 -&gt; value). In this way, you&rsquo;ll be able to manage the whole range;</li>
+<li>for scale to reach you can choose between a slider or a textfield;</li>
+</ul>
+<p>I added also an &ldquo;xy-pad&rdquo; that allows me to move the cube (Create on p3d script X and Y sockets, substitute translate(width/2, height/2) with translate(X,Y); then set binding-x to X, y to Y, min-x = 0, max-x = 800, min-y = 0, max-y = 600. I suggest you to set controller&rsquo;s width and height keeping sketch ratio).</p>
+<p>If you literally followed what said above, you should have something like this:</p>
+<figure>
+    <img src="/imgs/4-OneGUItoRuleThemAll/final-gui.png"/> 
+</figure>
+
+<p>Well, this tutorial has been quite briefer than usual, since it&rsquo;s not that complicated to explain the basics of it. Maybe on advanced series we&rsquo;ll explore it better, understanding how we can achieve even weird results or how to design that board to fulfill our needs. Thank you very much for getting until here, I hope that it has been funny and that I&rsquo;ve been able to make you interest about this software and the advanced multimedia world. Remember that I will publish a bonus episode with all the tips and tricks that I might have missed all the way long. I&rsquo;ll leave you the download link of the whole project in the new Resources Section that it will be soon available. See you soon!</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="tags/gui">gui</a></span><span class="tag"><a href="tags/patches">patches</a></span><span class="tag"><a href="tags/buttons">buttons</a></span><span class="tag"><a href="tags/sliders">sliders</a></span><span class="tag"><a href="tags/input">input</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>600 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-06-15 10:23 &#43;0200</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h">Read other posts</span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="/tutorials/tutorial_0003/">
+                                <span class="button__text">Tutorial 3 - Audio-reactive visuals</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.4a69500057d68129e88f497d354afe68422eb56de6d15e45dbe2190858ea5a76bfcb096406f992984b241db45f47388ac57ab0376e3b32125bef7a8a6d0f06c4.js" integrity="sha512-SmlQAFfWgSnoj0l9NUr&#43;aEIutW3m0V5F2&#43;IZCFjqWna/ywlkBvmSmEskHbRfRziKxXqwN247MhJb73qKbQ8GxA=="></script>
+
+
+
+    </body>
+</html>

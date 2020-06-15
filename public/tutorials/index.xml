@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 06 Jun 2020 16:30:59 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 10:23:52 +0200</lastBuildDate>
     
 	<atom:link href="/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tutorial 4 - One GUI to rule them all</title>
+      <link>/tutorials/tutorial_0004/</link>
+      <pubDate>Mon, 15 Jun 2020 10:23:52 +0200</pubDate>
+      
+      <guid>/tutorials/tutorial_0004/</guid>
+      <description>Hello there! We got to the final chapter of our PraxisLIVE basic series (excluding the extra chapter)! Today we&amp;rsquo;ll explore the GUI patch, which you might find very useful if you are going to show your work at a live event. The title, a semi-quote from &amp;ldquo;The Lord of the Rings&amp;rdquo;, sums what GUI do: it allows you to control live parameters all in one screen very quickly, without switching between all the nodes.</description>
+    </item>
     
     <item>
       <title>Tutorial 3 - Audio-reactive visuals</title>

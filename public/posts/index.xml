@@ -6,8 +6,20 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 08 Jun 2020 22:38:29 +0200</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jun 2020 21:10:08 +0200</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Tutorial 4 Available!</title>
+            <link>/posts/tutorial_4_av/</link>
+            <pubDate>Mon, 15 Jun 2020 21:10:08 +0200</pubDate>
+            
+            <guid>/posts/tutorial_4_av/</guid>
+            <description>Hello everyone! The third episode about Audio-Reactive Visuals is available right now! Click here!</description>
+            <content type="html"><![CDATA[<p>Hello everyone! The third episode about Audio-Reactive Visuals is available right now!
+Click <a href="/tutorials/tutorial_0004/">here</a>!</p>
+]]></content>
+        </item>
         
         <item>
             <title>Upcoming website upgrades and extra episode!</title>

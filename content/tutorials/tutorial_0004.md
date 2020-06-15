@@ -50,6 +50,6 @@ I added also an "xy-pad" that allows me to move the cube (Create on p3d script X
 
 If you literally followed what said above, you should have something like this:
 
-{{<figure src="/imgs/4_OneGUItoRuleThemAll/final-gui.png" alt="" >}}
+{{<figure src="/imgs/4-OneGUItoRuleThemAll/final-gui.png" alt="" >}}
 
-Well, this tutorial has been quite briefer than usual, since it's not that complicated to explain the basics of it. Maybe on advanced series we'll explore it better, understanding how we can achieve even weird results or how to design that board to fulfill our needs. Thank you very much for getting until here, I hope that it has been funny and that I've been able to make you interest about this software and the advanced multimedia world. Remember that I will publish a bonus episode with all the tips and tricks that I might have missed all the way long. I'll leave you the download link of the whole project in the new Resources Section that it will be soon available. See you soon! 
+Well, this tutorial has been quite briefer than usual, since it's not that complicated to explain the basics of it. Maybe on advanced series we'll explore it better, understanding how we can achieve even weird results or how to design that board to fulfill our needs. Thank you very much for getting until here, I hope that it has been funny and that I've been able to make you interest about this software and the advanced multimedia world. Remember that I will publish a bonus episode with all the tips and tricks that I might have missed all the way long. I'll leave you the download link of the whole project in the new Resources Section that it will be soon available. See you soon!
