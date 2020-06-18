@@ -1,4 +1,4 @@
-# Praxis LIVE Unoffcial Guide
+# Praxis LIVE Unofficial Guide
 
 This is an unofficial guide for PraxisLIVE that will help newcomers to manage
 the software basics and to make it more accessible. In the future it will also contain some
